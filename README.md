@@ -79,5 +79,6 @@ Viden omkring sikkerhed, og de praktikker og procedurer man bør overholde for a
 Kilder:
 
 https://universe.ida.dk/artikel/her-er-eu-s-datalov-31765/
+
 https://securelist.com/threats/recognizing-internal-threats/
 
