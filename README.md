@@ -82,3 +82,10 @@ https://universe.ida.dk/artikel/her-er-eu-s-datalov-31765/
 
 https://securelist.com/threats/recognizing-internal-threats/
 
+https://snyk.io/blog/mongodb-hack-and-secure-defaults/
+
+https://www.mongodb.com/blog/post/how-to-avoid-a-malicious-attack-that-ransoms-your-data
+
+https://www.theverge.com/2017/7/25/16023920/ransomware-statistics-locky-cerber-google-research
+
+https://www.networkworld.com/article/3157766/linux/mongodb-ransomware-attacks-and-lessons-learned.html
