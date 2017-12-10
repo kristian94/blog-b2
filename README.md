@@ -73,6 +73,7 @@ Personfølsom data er også yderst delikat og bør aldrig deles skødesløst. Ny
 ### Konklusion
 
 Viden omkring sikkerhed, og de praktikker og procedurer man bør overholde for at undgå sårbarheder, er fundamentale for enhver udvikler der vil undgå at udsætte sit system og dets brugere for trusler. Konsekvenserne af sløset sikkerhed er potentielt katastrofale, og kan i visse tilfælde nedlægge et system i en længere periode. 
+Herudover bør man sørge for altid at gennemlæse dokumentation for sikkerhed, når der arbejdes med sensitive ting såsom databaser, for at sikre sig mod angreb som beskrevet i denne tekst.
 
 ---
 
