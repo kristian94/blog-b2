@@ -40,7 +40,7 @@ Heldigvis er det givne problem vi oplevede nemt at løse, det kræver blot at ma
 
 En vigtig lektie i denne oplevelse, har været brugen af database-backups. Beslutningen om at lave backups af vores database, gjorde at vi kunne genskabe meget af den data, der ellers ville være gået tabt. Vi valgte at undlade at betale hackerne, da vi først og fremmest ikke kan være sikre på at de overhovedet ligger inde med den, og sekundært fordi det generelt anbefales af blandt andre Europol, at man ikke lader sig presse til at betale.
 
- 
+![(http://212.47.237.59:6001/test/blog/Screen%20Shot%202017-12-04%20at%2016.48.29.png)]
  ___
  
  ### Generelle Sikkerhedsbrister
