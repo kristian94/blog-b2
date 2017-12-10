@@ -8,6 +8,8 @@ Med relativt simple midler, kan man sikre sig mod de mest benyttede angreb.
  
 Trods sikring er der dog stadig mange faldgruber, og det er svært at sikre sig fuldstændigt.
 
+___
+
 # Manglende sikkerhed skyld i større nedbrud - *da hackernews-clone blev hacked*
 
 Negligering af sikkerhed på server i forbindelse med udvikling af et system, var skyld i massivt datatab og større nedbrud. Udviklere bør generelt have et større fokus på sikkerhed.
