@@ -44,13 +44,13 @@ Der er flere måder en hacker kan slippe ind. I langt de fleste tilfælde har en
 
 ### Viden er magt
  
-For at sikre sig imod angreb er man derfor nødt til, først of fremmest, at sikre sig at hele ens udvikler-team har en vis basis-viden omkring de mest elementære sikkerheds-trusler. For en erfaren udvikler vil mange af disse trusler virke banale, men netop derfor er det vigtigt at have 100% styr på dem.
+For at sikre sig imod angreb er man derfor nødt til, først of fremmest, at sikre sig at hele ens udvikler-team har en vis basisviden omkring de mest elementære sikkerhedstrusler. For en erfaren udvikler vil mange af disse trusler virke banale, men netop derfor er det vigtigt at have 100% styr på dem.
 
 #### Trojans, Rootkits og andet malware
 
 ![Trojan Horse](http://s2.quickmeme.com/img/5d/5d91e23d0b04b87bc44a4068fda43ccead75a85e392fa6710812a6ca4459424f.jpg)
 
-Mange af disse ondsindede programmer vil ofte inficere ens system via **mails**, ukendte **USB drev** eller i **downloads** forklædt som andre filer. Derfor er det altid god praktik at være skeptisk omkring disse medier. Man bør aldrig åbne en mail hvis autencitet man er den mindste smule i tvivl om. Ofte vil malware inficerede mails være forklædt som mails fra pålidelige organisationer som Google eller Microsoft. Derfor kan det være svært at vurdere om en mail er godartet eller ej ved første øjekast. Man bør altid checke afsenderens email adresse, da hackerne ofte bruger mails der til forveksling ligner de officielle organisationers. Man bør også altid checke for stavefejl, da disse ofte kan afsløre en sløset bedrager. **Links** og **vedhæftede filer** bør aldrig åbne uden at have sikret sig afsenderens **pålidelighed**. 
+Mange af disse ondsindede programmer vil ofte inficere ens system via **mails**, ukendte **USB drev** eller i **downloads** forklædt som andre filer. Derfor er det altid god praktik at være skeptisk omkring disse medier. Man bør aldrig åbne en mail hvis autencitet man er den mindste smule i tvivl om. Ofte vil malware-inficerede mails være forklædt som mails fra pålidelige organisationer som Google eller Microsoft. Derfor kan det ved første øjekast være svært at vurdere om en mail er godartet eller ej. Man bør altid checke afsenderens email adresse, da hackerne ofte bruger adresser der til forveksling ligner de officielle organisationers, men som dog ikke er helt ens. Man bør også altid checke for stavefejl, da disse ofte kan afsløre en sløset bedrager. **Links** og **vedhæftede filer** bør aldrig åbne uden at have sikret sig afsenderens **pålidelighed**. 
 
 Mange af de samme forholdsregler gør sig gældende for mobile drev (USB, DVD’er etc.) og downloads. Her bør man være ekstra påpasselig, og aldrig insertere et drev hvis ophav man ikke kender til. Med hensyn til downloads skal man naturligvis være kildekritisk og forsøge at holde sig til officielle, pålidelige organisationer. Hvis man har downloadet filer man frygter kan være ondsindede bør man altid skanne dem med et program, der kan registrere trusler (f.eks. Malwarebytes Anti Malware).
 
