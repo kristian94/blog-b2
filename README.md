@@ -28,11 +28,18 @@ Vores database-bruger-kode er blevet bruteforced
 Vores database-port har været åben
 Der har manglet en form for godkendelse af adgang til databasen
 
-Resultatet viste sig en blanding af de to sidste punkter. Adgangen til vores database stod helt åben i vores firewall (port 27017), og oven i dette var der ingen generel sikkerhed sat op for at få adgang til hele databasen.
+Resultatet viste sig en blanding af de to sidste punkter. Adgangen til vores database stod helt åben i vores firewall (port 27017), og oven i dette var der ingen generel sikkerhed sat op for at få adgang til hele databasen. Med disse to sikkerhedsbrister i opsætningen af vores firewall og database, var der direkte adgang til al data i vores database.
 
- . . . /todo
- 
- 
+En hurtig googlesøgning vil dog afsløre, at vi langt fra er de eneste der har stået i denne situation. Mindst 30.000 databaser er blevet hacket på samme fremgangsmåde. Forskellige tools, såsom shodan.io, gør det nemt at fremskaffe IP-adresser, hvor MongoDB er installeret. Herefter er det blot at forbinde sig til serveren, da der som udgangspunkt ikke er godkendelse installeret på MongoDB-databaser.
+
+### Fix
+
+Heldigvis er det givne problem vi oplevede nemt at løse, det kræver blot at man lukker for adgang til porten i brug, eller definerer en specifik IP som gerne må få adgang gennem firewallen. Herudover findes der mange vejledninger til at få sat sikkerhed op i forbindelse med opsætning af sin database, som alle bør følge.
+
+### Efterfølgende
+
+En vigtig lektie i denne oplevelse, har været brugen af database-backups. Beslutningen om at lave backups af vores database, gjorde at vi kunne genskabe meget af den data, der ellers ville være gået tabt. Vi valgte at undlade at betale hackerne, da vi først og fremmest ikke kan være sikre på at de overhovedet ligger inde med den, og sekundært fordi det generelt anbefales af blandt andre Europol, at man ikke lader sig presse til at betale.
+
  
  ___
  
