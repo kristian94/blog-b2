@@ -16,7 +16,7 @@ Negligering af sikkerhed på server i forbindelse med udvikling af et system, va
 
 > *“Din data er blevet downloadet, og sikret på vores servere. For at få din data tilbage – betal 0.2 BitCoin til vores BitCoin adresse. Kontakt os på email, og vedhæft bevis på betaling. Velbekomme!”*
 
-![awkward seal](http://212.47.237.59/test/blog/Screen%20Shot%202017-12-10%20at%2012.59.55.png "Awkward Seal")
+![awkward seal](http://212.47.237.59:6001/test/blog/Screen%20Shot%202017-12-10%20at%2012.59.55.png "Awkward Seal")
 
 En alarm på vores monitoreringssystem havde gjort os opmærksomme på, at der var noget galt med vores system. Da alt pegede på at der var noget galt med databaseserveren, tog vi et kig på denne, og fandt førnævnte venlige besked som det eneste, i en database der tidligere havde indeholdt millioner af dokumenter.
 
