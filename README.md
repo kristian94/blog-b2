@@ -75,6 +75,8 @@ Personfølsom data er også yderst delikat og bør aldrig deles skødesløst. Ny
 
 Viden omkring sikkerhed, og de praktikker og procedurer man bør overholde for at undgå sårbarheder, er fundamentale for enhver udvikler der vil undgå at udsætte sit system og dets brugere for trusler. Konsekvenserne af sløset sikkerhed er potentielt katastrofale, og kan i visse tilfælde nedlægge et system i en længere periode. 
 
+---
+
 Kilder:
 
 https://universe.ida.dk/artikel/her-er-eu-s-datalov-31765/
