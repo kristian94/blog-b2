@@ -32,9 +32,13 @@ Resultatet viste sig en blanding af de to sidste punkter. Adgangen til vores dat
 
 En hurtig googlesøgning vil dog afsløre, at vi langt fra er de eneste der har stået i denne situation. Mindst 30.000 databaser er blevet hacket på samme fremgangsmåde. Forskellige tools, såsom shodan.io, gør det nemt at fremskaffe IP-adresser, hvor MongoDB er installeret. Herefter er det blot at forbinde sig til serveren, da der som udgangspunkt ikke er godkendelse installeret på MongoDB-databaser.
 
+![](http://212.47.237.59:6001/test/blog/pre.png)
+
 ### Fix
 
 Heldigvis er det givne problem vi oplevede nemt at løse, det kræver blot at man lukker for adgang til porten i brug, eller definerer en specifik IP som gerne må få adgang gennem firewallen. Herudover findes der mange vejledninger til at få sat sikkerhed op i forbindelse med opsætning af sin database, som alle bør følge.
+![](http://212.47.237.59:6001/test/blog/post.png)
+![](http://212.47.237.59:6001/test/blog/security.png)
 
 ### Efterfølgende
 
