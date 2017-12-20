@@ -1,6 +1,6 @@
 ### Abstract
 
-*I forbindelse med udvikling af et system, var negligering af sikkerhed i MongoDB skyld i massivt datatab. Store og populære systemer som har brugere i centrum, er et mål for ondsindede hackere, som ønsker at stjæle data. Det er derfor nødvendigt at udviklere har mere fokus på sikkerhed, da hackere i 2017 har adgang til værktøjer som giver dem mulighed for at scanne for eksempelvis åbne MongoDB-porte. Med løsninger beskrevet i denne blog, vil det være muligt at sikre sig mod angreb, af samme type som det vi (og mindst 30.000 andre) har været udsat for.*
+*I forbindelse med udvikling af et system, var negligering af sikkerhed i MongoDB skyld i massivt datatab. Store og populære systemer som har brugere i centrum, er et mål for ondsindede hackere, som ønsker at stjæle data. Det er derfor nødvendigt at udviklere har mere fokus på sikkerhed, da hackere i 2017 har adgang til værktøjer som giver dem mulighed for at scanne for eksempelvis åbne MongoDB-porte, som giver direkte adgang til deres database. Med løsninger beskrevet i denne blog, vil det være muligt at sikre sig mod angreb, af samme type som det vi (og mindst 30.000 andre) har været udsat for.*
 
 ___
 
