@@ -26,6 +26,7 @@ Resultatet viste sig en blanding af de to sidste punkter. Adgangen til vores dat
 
 En hurtig googlesøgning vil dog afsløre, at vi langt fra er de eneste der har stået i denne situation. Mindst 30.000 databaser er blevet hacket på samme fremgangsmåde. Forskellige tools, såsom shodan.io.
 Dette værktøj gør det nemt at fremskaffe IP-adresser, hvor MongoDB er installeret. Reelt set skal man blot oprette en bruger på deres site, og efterfølgende søge på eksempelvis MongoDB. Værktøjet vil herefter vise en liste over tilgængelige MongoDB instanser og den tilknyttede IP. Herefter er det blot at forbinde sig til serveren, da der som udgangspunkt ikke er godkendelse installeret på MongoDB-databaser.
+
 Som det kan ses på følgende billede, kan man uden problemer få en oversigt over MongoDB instanser rundt omkring i verden, og få en masse informationer om disse. 
 
 ![drb](http://212.47.237.59:6001/test/blog/Screen%20Shot%202017-12-20%20at%2013.44.59.png "")
