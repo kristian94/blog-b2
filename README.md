@@ -1,12 +1,6 @@
 ### Abstract
 
-Negligering af sikkerhed på server i forbindelse med udvikling af et system, var skyld i massivt datatab og større nedbrud.
- 
-Store og populære systemer er mål for ondsindede hackere, som ønsker at stjæle data og afpresse ejerne til at betale (ransomware).
- 
-Med relativt simple midler, kan man sikre sig mod de mest benyttede angreb.
- 
-Trods sikring er der dog stadig mange faldgruber, og det er svært at sikre sig fuldstændigt.
+*I forbindelse med udvikling af et system, var negligering af sikkerhed i MongoDB skyld i massivt datatab. Store og populære systemer som har brugere i centrum, er et mål for ondsindede hackere, som ønsker at stjæle data. Det er derfor nødvendigt at udviklere har mere fokus på sikkerhed, da hackere i 2017 har adgang til værktøjer som giver dem mulighed for at scanne for eksempelvis åbne MongoDB-porte. Med løsninger beskrevet i denne blog, vil det være muligt at sikre sig mod angreb, af samme type som det vi (og mindst 30.000 andre) har været udsat for.*
 
 ___
 
@@ -23,16 +17,19 @@ En alarm på vores monitoreringssystem havde gjort os opmærksomme på, at der v
 ### Årsag
 
 En gennemgang af mulige årsager på hacket af vores database, gav os følgende punkter:
-Database-URL har fremgået i kildekoden
-Vores database-bruger-kode er blevet bruteforced
-Vores database-port har været åben
-Der har manglet en form for godkendelse af adgang til databasen
+-	Database-URL har fremgået i kildekoden
+-	Vores database-bruger-kode er blevet bruteforced
+-	Vores database-port har været åben
+-	Der har manglet en form for godkendelse af adgang til databasen
 
 Resultatet viste sig en blanding af de to sidste punkter. Adgangen til vores database stod helt åben i vores firewall (port 27017), og oven i dette var der ingen generel sikkerhed sat op for at få adgang til hele databasen. Med disse to sikkerhedsbrister i opsætningen af vores firewall og database, var der direkte adgang til al data i vores database.
 
-En hurtig googlesøgning vil dog afsløre, at vi langt fra er de eneste der har stået i denne situation. Mindst 30.000 databaser er blevet hacket på samme fremgangsmåde. Forskellige tools, såsom shodan.io, gør det nemt at fremskaffe IP-adresser, hvor MongoDB er installeret. Herefter er det blot at forbinde sig til serveren, da der som udgangspunkt ikke er godkendelse installeret på MongoDB-databaser.
+En hurtig googlesøgning vil dog afsløre, at vi langt fra er de eneste der har stået i denne situation. Mindst 30.000 databaser er blevet hacket på samme fremgangsmåde. Forskellige tools, såsom shodan.io.
+Dette værktøj gør det nemt at fremskaffe IP-adresser, hvor MongoDB er installeret. Reelt set skal man blot oprette en bruger på deres site, og efterfølgende søge på eksempelvis MongoDB. Værktøjet vil herefter vise en liste over tilgængelige MongoDB instanser og den tilknyttede IP. Herefter er det blot at forbinde sig til serveren, da der som udgangspunkt ikke er godkendelse installeret på MongoDB-databaser.
+Som det kan ses på følgende billede, kan man uden problemer få en oversigt over MongoDB instanser rundt omkring i verden, og få en masse informationer om disse. 
 
-![](http://212.47.237.59:6001/test/blog/pre.png)
+![drb](http://212.47.237.59:6001/test/blog/Screen%20Shot%202017-12-20%20at%2013.44.59.png "")
+
 
 ### Fix
 
@@ -90,3 +87,5 @@ https://www.mongodb.com/blog/post/how-to-avoid-a-malicious-attack-that-ransoms-y
 https://www.theverge.com/2017/7/25/16023920/ransomware-statistics-locky-cerber-google-research
 
 https://www.networkworld.com/article/3157766/linux/mongodb-ransomware-attacks-and-lessons-learned.html
+	
+
