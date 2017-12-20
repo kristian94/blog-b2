@@ -52,7 +52,7 @@ Der er flere måder en hacker kan slippe ind. I langt de fleste tilfælde har en
 
 ### Viden er magt
  
-For at sikre sig imod angreb er man derfor nødt til, først of fremmest, at sikre sig at hele ens udvikler-team har en vis basisviden omkring de mest elementære sikkerhedstrusler. For en erfaren udvikler vil mange af disse trusler virke banale, men netop derfor er det vigtigt at have 100% styr på dem.
+For at sikre sig imod angreb er man derfor nødt til, først of fremmest, at sikre sig at hele ens udvikler-team har en vis basisviden omkring [de mest elementære sikkerhedstrusler](https://securelist.com/threats/recognizing-internal-threats/). For en erfaren udvikler vil mange af disse trusler virke banale, men netop derfor er det vigtigt at have 100% styr på dem.
 
 #### Trojans, Rootkits og andet malware
 
