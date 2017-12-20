@@ -66,7 +66,7 @@ Mange af de samme forholdsregler gør sig gældende for mobile drev (USB, DVD’
 
 Derudover er det vigtigt altid at være varsom omkring systemets data (om medarbejdere, brugere, transaktioner etc.) Får en hacker fat i et password kan det have store konsekvenser for en virksomhed. Er der tale om et password der giver adgang til dele af systemet vil hackeren nemt have mulighed for at forårsage yderligere skade. Er der tale om et password for et af systemets brugere, er det også ildevarslende. Folk bruger ofte det samme password flere steder, og hackeren vil derfor potentielt have mulighed for at få adgang til brugerens sociale medier, mail-konto eller i værste fald back-konto. Mister man en brugers password på den måde kan det være knusende for ens renomme.
 
-Personfølsom data er også yderst delikat og bør aldrig deles skødesløst. Nyere lovgivning betyder at det kan være yderst dyrt at behandle personfølsom data forkert, og virksomheder der bryder lovgivningen på dette område blive tvunget til at betale et større millionbeløb i bøde.
+Personfølsom data er også yderst delikat og bør aldrig deles skødesløst. [Nyere lovgivning](https://universe.ida.dk/artikel/her-er-eu-s-datalov-31765/) betyder at det kan være yderst dyrt at behandle personfølsom data forkert, og virksomheder der bryder lovgivningen på dette område blive tvunget til at betale et større millionbeløb i bøde.
 
 ### Konklusion
 
